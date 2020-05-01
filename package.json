@@ -7,7 +7,7 @@
         "email": "mma.rifat66@gmail.com"
     },
     "scripts": {
-        "serve": "vue-cli-service serve --port 1997",
+        "serve": "vue-cli-service serve --port 1900",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
