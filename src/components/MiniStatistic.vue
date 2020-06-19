@@ -9,7 +9,7 @@
 					</div>
 					<div class="sm6 xs6 flex" :class="background">
 						<div class="layout column ma-0 justify-center align-center">
-							<v-icon size="40px" class="mt-2" :color="color">{{ icon }}</v-icon>
+							<v-icon size="20px" class="pa-5" :color="color">{{ icon }}</v-icon>
 						</div>
 					</div>
 				</div>

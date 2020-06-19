@@ -503,7 +503,7 @@
 			}
 		]
 		gotoFb(){
-			window.location.href = "http://www.facebook.com/mma.rifat66";
+			window.location.href = "http://www.facebook.com/mma.rifat6";
 		}
 	}
 </script>

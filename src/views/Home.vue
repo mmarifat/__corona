@@ -71,19 +71,19 @@
 								<mini-statistic title="Total" :icon="coronaCountries.cases" color="light-green accent-2" class="mb-5"/>
 								<mini-statistic title="Today" :icon="coronaCountries.todayCases" color="light-green accent-3" class="mb-5"/>
 								<mini-statistic title="Rate / Million" :icon="coronaCountries.casesPerOneMillion" color="light-green accent-4"
-								                :sub-title="'Rate (People)'+coronaCountries.oneCasePerPeople"/>
+								                :sub-title="'Rate (People) - '+coronaCountries.oneCasePerPeople"/>
 							</v-flex>
 							<v-flex md6 lg8 sm12 xs12 class="pa-5" v-if="item === 'Deaths'">
 								<mini-statistic title="Total" :icon="coronaCountries.deaths" color="orange accent-1" class="mb-5"/>
 								<mini-statistic title="Today" :icon="coronaCountries.todayDeaths" color="orange accent-2" class="mb-5"/>
 								<mini-statistic title="Rate / Million" :icon="coronaCountries.deathsPerOneMillion" color="orange accent-3"
-								                :sub-title="'Rate (People)'+coronaCountries.oneDeathPerPeople"/>
+								                :sub-title="'Rate (People) - '+coronaCountries.oneDeathPerPeople"/>
 							</v-flex>
 							<v-flex md6 lg8 sm12 xs12 class="pa-5" v-if="item === 'Patients'">
 								<mini-statistic title="Critical" :icon="coronaCountries.critical" color="lime lighten-2" class="mb-5"
-								                :sub-title="'Rate (Million)'+coronaCountries.criticalPerOneMillion"/>
+								                :sub-title="'Rate (Million) - '+coronaCountries.criticalPerOneMillion"/>
 								<mini-statistic title="Active" :icon="coronaCountries.active" color="lime lighten-1" class="mb-5"
-								                :sub-title="'Rate (Million)'+coronaCountries.activePerOneMillion"/>
+								                :sub-title="'Rate (Million) - '+coronaCountries.activePerOneMillion"/>
 								<mini-statistic title="Recovered" :icon="coronaCountries.recovered" color="lime accent-3"
 								                :sub-title="'Today - '+coronaCountries.todayRecovered+' || Rate (Million) - '+coronaCountries.recoveredPerOneMillion"/>
 							</v-flex>
@@ -91,7 +91,7 @@
 								<mini-statistic title="Population" :icon="coronaCountries.population" color="cyan lighten-2" class="mb-5"/>
 								<mini-statistic title="Total" :icon="coronaCountries.tests" color="cyan lighten-1" class="mb-5"/>
 								<mini-statistic title="Rate (Million)" :icon="coronaCountries.testsPerOneMillion" color="cyan darken-1"
-								                :sub-title="'Rate (People)'+coronaCountries.oneTestPerPeople"/>
+								                :sub-title="'Rate (People) - '+coronaCountries.oneTestPerPeople"/>
 							</v-flex>
 						</v-layout>
 					</v-card>
