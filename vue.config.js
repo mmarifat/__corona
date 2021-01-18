@@ -9,4 +9,5 @@ module.exports = {
         https: true,
         hotOnly: false,
     },
+    publicPath: '/__corona/'
 }
